@@ -1,9 +1,4 @@
-require 'rack/auth/basic'
 require 'rack/contrib/try_static'
-
-use Rack::Auth::Basic, "Restricted Area" do |username, password|
-  [username, password] == ['admin', 'crushmusic']
-end
 
 use Rack::TryStatic,
     :root => "_site",
