@@ -1,0 +1,5 @@
+safe: false
+pygments: true
+permalink: pretty
+markdown: rdiscount
+exclude: [Readme.md, Gemfile, Gemfile.lock, Procfile, tmp, config.ru]
