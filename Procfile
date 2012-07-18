@@ -1,1 +1,1 @@
-jekyll:  jekyll --server --auto
+web: bundle exec rackup config.ru -p $PORT
