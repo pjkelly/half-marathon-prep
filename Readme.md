@@ -1,4 +1,4 @@
-# Crush + Lovely Music Product Spec
+# Half-Marathon Training Schedule
 
 This is a static website that is built on top of [Jekyll](https://github.com/mojombo/jekyll).
 
@@ -13,7 +13,7 @@ bundle install
 To start the processes for jekyll, compass and coffee script, it's a simple one line command:
 
 ```
-bundle exec foreman start
+bundle exec jekyll --server --auto
 ```
 
 Once that boots up, the website will be available at <http://0.0.0.0:4000>.
@@ -24,4 +24,4 @@ If you have deploy rights, deployment to Heroku is as simple as:
 
     git push production master
 
-The application is available at <http://music.crushlovely.com/>.
+The application is available at <http://half.fx.cf/>.
