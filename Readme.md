@@ -24,4 +24,4 @@ If you have deploy rights, deployment to Heroku is as simple as:
 
     git push production master
 
-The application is available at <http://half.fx.cf/>.
+The application is available at <http://half.fx.cr/>.
